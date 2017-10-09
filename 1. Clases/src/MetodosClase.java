@@ -14,7 +14,8 @@ public class MetodosClase {
 		
 		f1 = crearFecha();
 		System.out.println(f1.escribeCorto());
-
+		
+		
 	}
 
 }
