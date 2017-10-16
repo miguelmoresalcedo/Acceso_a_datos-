@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class CrearCarpeta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		String nombreCarpeta = scan.nextLine();
+
+		System.out.println("Ponle un nombre a la carpeta");
+		File carpeta = new File(carpeta);
+		
+
+	}
+
+}

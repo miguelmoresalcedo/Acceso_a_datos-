@@ -1,0 +1,12 @@
+import java.io.*;
+package Ficheros;
+
+public class CrearFicheros {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File fichero = new File("Hola.txt");
+
+	}
+
+}
