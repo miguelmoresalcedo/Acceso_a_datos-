@@ -1,0 +1,30 @@
+import java.io.*;
+
+
+public class FicheroTexto1 {
+
+	public static void main(String[] args)
+	{
+		String[] lista = {"Pepe", "Ana", "Juan"};
+		
+		try {
+			// 1. Crear ficheros 
+			File fichero = new File("fichero.txt");
+			FileWriter ficheroEscritura = new FileWriter(fichero);
+			
+			// 2. Escribir nombres
+			for(int i=0;i<lista.length;i++)
+			{
+				ficheroEscritura.write(lista[i]);
+			}
+			// 3. Cerrar fichero
+			ficheroEscritura.close();
+			
+		} 
+		catch (IOException e) 
+		{
+			e.printStackTrace();
+		}
+	}
+
+}
